@@ -34,7 +34,6 @@ int main(){
 
 			if((a_i + a_j) == m) d2 = d2 + a[a_i][a_j];            // (0,2), (1,1), (2,0)
 				
-			//temp_r += 1; temp_c += 1;
 		}
 	}
 	
