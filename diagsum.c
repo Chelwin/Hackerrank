@@ -1,3 +1,6 @@
+/*
+status: complete
+*/
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
@@ -11,9 +14,9 @@ int main(){
 
     scanf("%d",&n);
 
-    int a[n][n], d1, d2, temp_r, temp_c, m, modsum, a_i,  a_j;
+    int a[n][n], d1, d2, m, modsum, a_i,  a_j;
 
-	d1 = d2 = temp_r = temp_c = 0;
+	d1 = d2 = 0;
 	m =n-1;
 
     for(a_i = 0; a_i < n; a_i++){
